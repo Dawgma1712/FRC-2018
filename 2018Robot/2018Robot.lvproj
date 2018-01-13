@@ -27,7 +27,33 @@
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="TestPurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/TestPurePursuit.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+			</Item>
+			<Item Name="PurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/PurePursuit.vi"/>
+			<Item Name="LookAheadPoint.vi" Type="VI" URL="../Drive/PurePursuit/LookAheadPoint.vi"/>
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../../../2017 SteamWorks/DistanceFormula.vi"/>
+			<Item Name="CalculateCurvature.vi" Type="VI" URL="../Drive/PurePursuit/CalculateCurvature.vi"/>
+			<Item Name="EncodersGyroToXY.vi" Type="VI" URL="../Drive/PurePursuit/EncodersGyroToXY.vi"/>
+			<Item Name="CalculatePowerPursuit.vi" Type="VI" URL="../Drive/PurePursuit/CalculatePowerPursuit.vi"/>
+			<Item Name="derivative.vi" Type="VI" URL="../Support Code/derivative.vi"/>
+			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/VisualizePurePursuit.vi"/>
+			<Item Name="DrawCircle.vi" Type="VI" URL="../Drive/PurePursuit/DrawCircle.vi"/>
+			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../Drive/PurePursuit/EndOfPathHandler.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../../../2017 SteamWorks/TimerOnDelay.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../../../2017 SteamWorks/Timeout.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../Support Code/RateLimiter.vi"/>
+			<Item Name="Robot.vi" Type="VI" URL="../../../2017 SteamWorks/RobotSimulator.vi/Robot.vi"/>
+			<Item Name="robotSimulation.vi" Type="VI" URL="../Support Code/RobotSimulator/robotSimulation.vi"/>
+			<Item Name="robotFriction.vi" Type="VI" URL="../Support Code/RobotSimulator/robotFriction.vi"/>
+			<Item Name="motorTorque.vi" Type="VI" URL="../Support Code/RobotSimulator/motorTorque.vi"/>
+			<Item Name="InjectPoints.vi" Type="VI" URL="../Drive/PurePursuit/InjectPoints.vi"/>
+			<Item Name="Smoother.vi" Type="VI" URL="../Drive/PurePursuit/Smoother.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
@@ -585,11 +611,11 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="derivative.vi" Type="VI" URL="../Drive/derivative.vi"/>
-			<Item Name="RateLimiter.vi" Type="VI" URL="../Drive/RateLimiter.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Drive/Robot Global Data.vi"/>
-			<Item Name="Robot.vi" Type="VI" URL="../Drive/RobotSimulator.vi/Robot.vi"/>
-			<Item Name="DistanceFormula.vi" Type="VI" URL="../Drive/DistanceFormula.vi"/>
-			<Item Name="TimerOnDelay.vi" Type="VI" URL="../Drive/TimerOnDelay.vi"/>
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../../../2017 SteamWorks/DistanceFormula.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../../../2017 SteamWorks/TimerOnDelay.vi"/>
+			<Item Name="Robot.vi" Type="VI" URL="../../../2017 SteamWorks/RobotSimulator.vi/Robot.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../../../2017 SteamWorks/Timeout.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
