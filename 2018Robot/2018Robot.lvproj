@@ -126,6 +126,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="lifter" Type="Folder" URL="../lifter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -550,6 +553,24 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lifter Controller.vi" Type="VI" URL="../lifter/Implementation/lifter Controller.vi"/>
+			<Item Name="lifter Operations.ctl" Type="VI" URL="../lifter/Implementation/lifter Operations.ctl"/>
+			<Item Name="lifter Setpoints.ctl" Type="VI" URL="../lifter/Implementation/lifter Setpoints.ctl"/>
+			<Item Name="lifter Controller Initialization.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/lifter Controller Initialization.vi"/>
+			<Item Name="lifter Published Globals.vi" Type="VI" URL="../lifter/Implementation/lifter Published Globals.vi"/>
+			<Item Name="lifter Check for New Command.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/lifter Check for New Command.vi"/>
+			<Item Name="lifter Controller Interactive Check.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/lifter Controller Interactive Check.vi"/>
+			<Item Name="Read lifter Operation.vi" Type="VI" URL="../lifter/Commands/Read lifter Operation.vi"/>
+			<Item Name="lifter Command Helper.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/lifter Command Helper.vi"/>
+			<Item Name="_Subsystem_Name Operations.ctl" Type="VI" URL="../lifter/Implementation/_Subsystem_Name Operations.ctl"/>
+			<Item Name="_Subsystem_Name Setpoints.ctl" Type="VI" URL="../lifter/Implementation/_Subsystem_Name Setpoints.ctl"/>
+			<Item Name="_Subsystem_Name Published Globals.vi" Type="VI" URL="../lifter/Implementation/_Subsystem_Name Published Globals.vi"/>
+			<Item Name="_Subsystem_Name Command Helper.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/_Subsystem_Name Command Helper.vi"/>
+			<Item Name="Read _Subsystem_Name Operation.vi" Type="VI" URL="../lifter/Commands/Read _Subsystem_Name Operation.vi"/>
+			<Item Name="_Subsystem_Name Check for New Command.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/_Subsystem_Name Check for New Command.vi"/>
+			<Item Name="_Subsystem_Name Controller Initialization.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/_Subsystem_Name Controller Initialization.vi"/>
+			<Item Name="_Subsystem_Name Controller Interactive Check.vi" Type="VI" URL="../lifter/Implementation/Infrastructure/_Subsystem_Name Controller Interactive Check.vi"/>
+			<Item Name="_Subsystem_Name Controller.vi" Type="VI" URL="../lifter/Implementation/_Subsystem_Name Controller.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
