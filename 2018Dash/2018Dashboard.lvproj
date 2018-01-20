@@ -20,6 +20,7 @@
 			<Item Name="Adjust Dashboard Window.vi" Type="VI" URL="../Adjust Dashboard Window.vi"/>
 		</Item>
 		<Item Name="Dashboard Main.vi" Type="VI" URL="../Dashboard Main.vi"/>
+		<Item Name="AutonomousRoutine.ctl" Type="VI" URL="../../Shared/AutonomousRoutine.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -241,7 +242,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Playback Controls.vi" Type="VI" URL="../Playback Controls.vi"/>
-			<Item Name="AutonomousRoutine.ctl" Type="VI" URL="../../Shared/AutonomousRoutine.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC_Dashboard" Type="EXE">
