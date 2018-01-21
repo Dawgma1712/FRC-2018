@@ -126,6 +126,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="lifter" Type="Folder" URL="../lifter">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Logging" Type="Folder" URL="../Logging">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
