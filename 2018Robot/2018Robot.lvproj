@@ -155,7 +155,8 @@ AddOutputFilter chunkFilter
 		<Item Name="Logging" Type="Folder" URL="../Logging">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Lifter" Type="Folder" URL="../Lifter">
+		<Item Name="Lifter" Type="Folder"/>
+		<Item Name="Intake" Type="Folder" URL="../Intake">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -673,7 +674,6 @@ AddOutputFilter chunkFilter
 			<Item Name="NEWLinearInterpolate.vi" Type="VI" URL="../Drive/PurePursuit/NEWLinearInterpolate.vi"/>
 			<Item Name="PathFileData.ctl" Type="VI" URL="../../Shared/PathFileData.ctl"/>
 			<Item Name="AutonomousRoutine.ctl" Type="VI" URL="../../Shared/AutonomousRoutine.ctl"/>
-			<Item Name="Lifter1 Controller.vi" Type="VI" URL="../Lifter1/Implementation/Lifter1 Controller.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
