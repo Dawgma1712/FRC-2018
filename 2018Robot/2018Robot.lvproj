@@ -28,8 +28,7 @@
 		</Item>
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="TestPurePursuit.vi" Type="VI" URL="../Drive/PurePursuit/TestPurePursuit.vi"/>
-		<Item Name="CalcDistanceFromEnd.vi" Type="VI" URL="../Drive/PurePursuit/CalcDistanceFromEnd.vi"/>
-		<Item Name="ClosestPoint.vi" Type="VI" URL="../Drive/PurePursuit/ClosestPoint.vi"/>
+		<Item Name="CalculateVelAtPoints.vi" Type="VI" URL="../Drive/PurePursuit/CalculateVelAtPoints.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
@@ -56,6 +55,8 @@
 			<Item Name="Timeout.vi" Type="VI" URL="../Support Code/Timeout.vi"/>
 			<Item Name="Robot.vi" Type="VI" URL="../Support Code/RobotSimulator/Robot.vi"/>
 			<Item Name="Latch.vi" Type="VI" URL="../Support Code/Latch.vi"/>
+			<Item Name="CalcDistanceFromEnd.vi" Type="VI" URL="../Drive/PurePursuit/CalcDistanceFromEnd.vi"/>
+			<Item Name="ClosestPoint.vi" Type="VI" URL="../Drive/PurePursuit/ClosestPoint.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
